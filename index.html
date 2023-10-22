@@ -1,16 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <section id="welcome-section">
-    <h1>Hi, im Nahuel</h1>
+  <nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <li><a href="#welcome-section">Sobre Mi</a></li>
+      <li><a href="#projects">Trabajos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+  <section id="welcome-section" class="welcome-section">
+    <h1>Hey I'm NAHUEL</h1>
+    <p>a web developer</p>
   </section>
-  <section id="projects">
-    <div class="project-tile"></div>
+  <section id="projects" class="projects-section">
+    <h2 class="projects-section-header">Estos son algunos de mis proyectos</h2>
+    <div class="projects-grid">
+      <a href="https://nahuellml.github.io/Ahorcado" class="project project-tile" target="_blank">
+        <img class="project-image" src="./Images/WhatsApp Image 2023-10-21 at 18.17.54.jpeg" alt="project" >
+        <p class="project-title"><span class="code"><</span>Ahorcado<span class="code">/></span></p>
+      </a>
+      <a href="https://nahuellml.github.io/Nave-Espacial" class="project project-tile" target="_blank">
+        <img class="project-image" src="./Images/Captura de pantalla 2023-10-21 191953.png" alt="project" >
+        <p class="project-title"><span class="code"><</span>Nave Espacial<span class="code">/></span></p>
+      </a>
+      <a href="https://nahuellml.github.io/Yoshi" class="project project-tile" target="_blank">
+        <img class="project-image" src="./Images/Yoshi.png" alt="project" >
+        <p class="project-title"><span class="code"><</span>Yoshi</span><span class="code">/></span></p>
+      </a>
+      <a href="https://nahuellml.github.io/Mandala" class="project project-tile" target="_blank">
+        <img class="project-image" src="./Images/Mandala.png" alt="project" >
+        <p class="project-title"><span class="code"><</span>Mandala<span class="code">/></span></p>
+      </a>
+      <a href="https://nahuellml.github.io/Animaciones-Canvas" class="project project-tile" target="_blank">
+        <img class="project-image" src="./Images/animaciones-canvas.png" alt="project" >
+        <p class="project-title"><span class="code"><</span>Animaciones Canvas<span class="code">/></span></p>
+      </a>
+      <a href="https://nahuellml.github.io/PelisApp" class="project project-tile" target="_blank">
+        <img class="project-image" src="./Images/pelisapp.png" alt="project" >
+        <p class="project-title"><span class="code"><</span>PelisApp<span class="code">/></span></p>
+      </a>
+    </div>
+    <a href="" class="btn btn-show-all" target="_blank"></a>
   </section>
+  <section id="contact" class="contact-section">
+    <h2>Let's go work together...</h2>
+    <p>How do you take your coffee?</p>
+    <div class="contact-links">
+      <a href="|" class="btn btn-contact-details" target="_blank"></a>
+      <a href="" class="btn btn-contact-details" target="_blank"></a>
+      <a href="" class="btn btn-contact-details" target="_blank"></a>
+    </div>
+  </section>
+  <footer>
+    <p>Hecho con pasión desde un rincón de Argentina</p>
+    <p>Created for @Nahuel</p>
+    <a href="" target="_blank"></a>
+  </footer> 
+  <script src="script.js"></script>
 </body>
+
 </html>
